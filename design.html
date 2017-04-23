@@ -1,0 +1,136 @@
+<DOCTYPE html>
+  <html>
+
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="js/vue.js"></script>
+    <script src="js/lodash.js"></script>
+    <!-- vue material -->
+    <script src="https://unpkg.com/vue-material@0.7.1"></script>
+    <link rel="stylesheet" href="https://unpkg.com/vue-material@0.7.1/dist/vue-material.css">
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+      .md-layout {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root">
+
+    
+      <md-layout :md-gutter="8">
+        <md-layout>
+          <span>8px</span>
+        </md-layout>
+
+        <md-layout>
+          <span>8px</span>
+        </md-layout>
+
+        <md-layout>
+          <span>8px</span>
+        </md-layout>
+
+        <md-layout>
+          <span>8px</span>
+        </md-layout>
+
+        <md-layout>
+          <span>8px</span>
+        </md-layout>
+
+        <md-layout>
+          <span>8px</span>
+        </md-layout>
+      </md-layout>
+
+      <md-layout md-gutter="16">
+        <md-layout>
+          <span>16px</span>
+        </md-layout>
+
+        <md-layout>
+          <span>16px</span>
+        </md-layout>
+
+        <md-layout>
+          <span>16px</span>
+        </md-layout>
+
+        <md-layout>
+          <span>16px</span>
+        </md-layout>
+
+        <md-layout>
+          <span>16px</span>
+        </md-layout>
+      </md-layout>
+
+      <md-layout :md-gutter="24">
+        <md-layout>
+          <span>24px</span>
+        </md-layout>
+
+        <md-layout>
+          <span>24px</span>
+        </md-layout>
+
+        <md-layout>
+          <span>24px</span>
+        </md-layout>
+
+        <md-layout>
+          <span>24px</span>
+        </md-layout>
+      </md-layout>
+
+      <md-layout :md-gutter="40">
+        <md-layout>
+          <span>40px</span>
+        </md-layout>
+
+        <md-layout>
+          <span>40px</span>
+        </md-layout>
+
+        <md-layout>
+          <span>40px</span>
+        </md-layout>
+      </md-layout>
+
+      <md-layout md-gutter>
+        <md-layout>
+          <span>Automatic</span>
+        </md-layout>
+
+        <md-layout>
+          <span>Automatic</span>
+        </md-layout>
+      </md-layout>
+
+
+
+    </div>
+
+    <script>
+      Vue.use(VueMaterial);
+      var app = new Vue({
+        el: '#root',
+        data: {
+          msg: "hello vuejs"
+        },
+        computed: {
+
+
+        }
+      });
+    </script>
+
+  </body>
+
+  </html>
